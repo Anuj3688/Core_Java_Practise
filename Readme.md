@@ -1,4 +1,6 @@
 ## Shortcuts for Development
+The Core of this Project is to revise all the import java concepts and keep on posting in Github to
+have a clear idea about the work I am going to do.
 1. sout+tab `For System.out.println()`
 2. ctrl + / `For comment & uncomment`
 3. ctrl + shift +/ `For multiline comment and uncomment`
