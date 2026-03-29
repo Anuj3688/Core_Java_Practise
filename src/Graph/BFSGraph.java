@@ -45,7 +45,9 @@ public class BFSGraph {
         //For unconnected Graphs
         Set<Integer> visited = new HashSet<>();
         for (int i = 1; i <= 5; i++) {
-            BFS(i, learn, visited);
+            if (!visited.contains(i)) {
+                BFS(i, learn, visited);
+            }
         }
 
     }

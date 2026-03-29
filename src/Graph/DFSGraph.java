@@ -57,7 +57,9 @@ public class DFSGraph {
         //For unconnected Graphs
         Set<Integer> visited = new HashSet<>();
         for (int i=1; i<=5 ; i++){
-            DFS(i,learn,visited);
+            if(!visited.contains(i)) {
+                DFS(i, learn, visited);
+            }
         }
 
     }
